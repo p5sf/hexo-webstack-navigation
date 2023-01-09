@@ -39,6 +39,6 @@ jobs:
         with:
           token: ${{secrets.ACCESS_TOKEN}}
           repository-name: hexo-navigation
-          branch: main
+          branch: master
           folder: public
           commit-message: "${{ github.event.head_commit.message }} Updated By  Actions"
