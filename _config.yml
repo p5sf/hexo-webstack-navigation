@@ -5,15 +5,15 @@
 # Site
 title: 程序员导航
 subtitle: ''
-description: ''
+description: 'hexo 导航'
 keywords:
-author: John Doe
+author: 亿言
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://sundayskys.github.io
+url: https://nav88.cc
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,5 +103,5 @@ theme: webstack
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: git@github.com:sundayskys/nav.git
+  repo: git@github.com:sundayskys/hexo-navigation.git
   branch: gh-pages
