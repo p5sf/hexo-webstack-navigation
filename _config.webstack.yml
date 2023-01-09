@@ -1,0 +1,1018 @@
+favicon: /images/favicon.png
+banner: /images/webstack_banner_cn.png
+
+logo:
+  expanded: https://java-note-pic.oss-cn-beijing.aliyuncs.com/java/Snipaste_2022-12-03_17-24-04.png
+  collapsed: /images/logo-collapsed@2x.png
+  dark: /images/logo_dark@2x.png
+
+flag:
+  - name: Chinese
+    default: true
+    icon: flag-cn
+    index: /index.html
+
+search: false
+
+userDefinedSearchData:
+  custom: false
+  thisSearch: https://www.baidu.com/s?wd=
+  thisSearchIcon: url(https://www.baidu.com/favicon.ico)
+  hotStatus: true
+  data:
+    - name: 百度
+      img: url(https://www.baidu.com/favicon.ico)
+      url: https://www.baidu.com/s?wd=
+# githubCorner: '<a href="https://github.com/HCLonely/hexo-theme-webstack" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>'
+
+about:
+  url: /commit/
+  icon: far fa-heart
+  name: 网站申请
+
+aboutPage:
+  website:
+    head: 提交网站申请
+    html: <h4>欢迎大家在此<a href='https://support.qq.com/products/489912/post/167325517084667720'>链接</a>下评论，为资源网站提供一份优质的学习资源</h4>
+
+expandAll: false
+menu:
+  - name: 常用导航
+    icon: far fa-star
+    config: navs
+  - name: 技术博客
+    icon: far fa-star
+    config: blogs
+  - name: 开发社区
+    icon: far fa-star
+    config: community
+  - name: 视频教程
+    icon: far fa-star
+    config: platform
+  - name: 开发文档
+    icon: far fa-star
+    config: developDocument
+
+  - name: 三方服务
+    icon: far fa-handshake
+    config: service
+
+  - name: 招聘兼职
+    icon: far fa-user
+    config: invite
+
+  - name: 编程工具
+    icon: far fa-star
+    submenu:
+      - name: 开发工具
+        icon: fas fa-tools
+        config: developTools
+      - name: SSH工具
+        icon: fas fa-tools
+        config: SSHTools
+      - name: 接口文档
+        icon: fas fa-tools
+        config: archiveTools
+
+  - name: 在线办公
+    icon: fas fa-tools
+    submenu:
+      - name: 在线文档
+        icon: fas fa-tools
+        config: onlineDocument
+      - name: 会议聊天
+        icon: fas fa-blog
+        config: chatting
+      - name: PPT模板
+        icon: fas fa-tools
+        config: PPT
+      - name: 思维导图
+        icon: fas fa-blog
+        config: mind
+
+  - name: 软件工具
+    icon: fas fa-tools
+    submenu:
+      - name: 在线工具
+        icon: fas fa-gears
+        config: tools
+      - name: 破解软件
+        icon: fas fa-tools
+        config: crack
+      - name: 苹果下载
+        icon: fas fa-blog
+        config: mac
+      - name: 微软下载
+        icon: fas
+        config: windows
+
+  - name: 在线娱乐
+    icon: fas fa-tools
+    submenu:
+      - name: 在线观影
+        icon: fas fa-blog
+        config: movie
+      - name: 在线书籍
+        icon: fas fa-blog
+        config: book
+      - name: 在线音乐
+        icon: fas fa-blog
+        config: music
+
+blogs:
+  - name: 左耳听风
+    url: https://coolshell.cn/
+    img: https://coolshell.cn/favicon.ico
+    description: 关于陈皓|酷壳
+  - name: 廖雪峰
+    url: https://www.liaoxuefeng.com/
+    img: https://www.liaoxuefeng.com/favicon.ico
+    description: 首页-廖雪峰官方网站
+  - name: JavaGuide
+    url: https://javaguide.cn/
+    img: https://javaguide.cn/favicon.ico
+    description: Java面试+学习指南
+  - name: 沉默王二
+    url: https://tobebetterjavaer.com/
+    img: https://tobebetterjavaer.com/favicon.ico
+    description: Java程序员进阶之路
+  - name: 陌溪
+    url: https://note.moguit.cn/
+    img: https://note.moguit.cn/favicon.ico
+    description: 陌溪学习笔记
+  - name: 小傅哥-bugstack
+    url: https://bugstack.cn/
+    img: https://bugstack.cn/favicon.ico
+    description: Java基础-面经手册
+  - name: 小林
+    url: https://xiaolincoding.com/
+    img: https://xiaolincoding.com//icon.webp
+    description: 小林-图解计算机网络、操作系统
+  - name: 智能后端和架构
+    url: https://www.yijiyong.com/
+    img: https://www.yijiyong.com/favicon.ico
+    description: 智能后端架构-包含Java基础、JVM、多线程、微服务、算法分析、数据建模等
+  - name: 悟空
+    url: http://www.passjava.cn/
+    img: http://www.passjava.cn/favicon.ico
+    description: 悟空聊架构汇总
+  - name: 凤凰架构
+    url: https://icyfenix.cn/
+    img: https://icyfenix.cn//favicon.ico
+    description: 凤凰架构构筑可靠大型分布式系统
+  - name: 程序猿DD
+    url: https://blog.didispace.com/
+    img: https://blog.didispace.com/css/images/avatar.jpg
+    description: 首页-程序猿DD网站
+  - name: 技术胖
+    url: https://jspang.com/
+    img: https://blogimages.jspang.com/blogtouxiang1.jpg
+    description: 技术胖-关注web前端技术
+  - name: 纯洁的微笑
+    url: http://ityouknow.com/
+    img: https://gesdh.cn/geshanzsq-file/profile/site/system/bee2f3c7-4fb8-4b06-8ba3-c678585d5b54.jpg
+    description: 专享技术博客
+  - name: 江南一点雨
+    url: http://www.javaboy.org/
+    img: https://www.javaboy.org/favicon.ico
+    description: 分享技术、品味人生
+  - name: 全栈知识体系
+    url: https://pdai.tech/
+    img: https://pdai.tech/favicon.ico
+    description: 全栈知识体系
+  - name: 芋道源码
+    url: https://www.iocoder.cn/
+    img: https://www.iocoder.cn/images/favicon.ico
+    description: 芋道源码-源码解析
+  - name: 代码随想录
+    url: https://programmercarl.com/
+    img: https://img-blog.csdnimg.cn/20210614201246512.png
+    description: 学习算法不迷路
+
+  - name: 吴师兄算法
+    url: https://www.cxyxiaowu.com/
+    img: https://avatars.githubusercontent.com/u/15308811?v=4
+    description: 五分钟学算法网站
+  - name: 美团技术团队
+    url: https://tech.meituan.com/
+    img: https://awps-assets.meituan.net/mit/blog/v20190629/asset/icon/apple-icon-180x180.png?v=Whistle&t=20181017-1r
+    description: 美团技术团队
+
+navs:
+  - name: 编程导航
+    url: https://www.code-nav.cn/
+    img: https://npm.elemecdn.com/ethan4116-blog/nav/images/icons/more-navs/bc-nav.png
+    description: 发现优质编程学习资源-编程导航
+  - name: 程序员盒子
+    url: https://www.coderutil.com/
+    img: https://www.coderutil.com/favicon.ico
+    description: 程序员一站式编程导航
+  - name: 书栈网
+    url: https://www.bookstack.cn/
+    img: https://www.bookstack.cn/favicon.ico
+    description: IT互联网中最大开源编程学习资源
+  - name: 程序员宝盒
+    url: https://www.baoboxs.com/#/
+    img: https://www.baoboxs.com/favicon.ico
+    description: 专属程序员的一站式导航
+  - name: 一为导航
+    url: https://nav.iowen.cn/
+    img: https://nav.iowen.cn/favicon.ico
+    description: 设计师网址导航大全
+  - name: 西瓜导航
+    url: https://www.xgnav.com/
+    img: https://api.iowen.cn/favicon/www.xgnav.com.png
+    description: 为你网罗互联网上最实用有趣的资源
+  - name: web前端导航
+    url: http://www.alloyteam.com/nav/
+    img: http://www.alloyteam.com/nav/static/images/alloyteam-favicon.jpg
+    description: web前端导航
+  - name: 学吧导航
+    url: https://www.xue8nav.com/
+    img: https://www.xue8nav.com/wp-content/uploads/2020/01/favicon.png
+    description: 40万学习爱好者的学习导航
+  - name: 爱资料工具
+    url: https://www.toolnb.com/
+    img: https://www.toolnb.com/favicon.ico
+    description: 爱资料工具提供最全面的在线工具网站
+  - name: 影视森林
+    url: https://549.tv
+    img: https://java-note-pic.oss-cn-beijing.aliyuncs.com/java/ying.png
+    description: 电影、电视剧、动漫、综艺、娱乐视频在线观看尽在影视森林导航。
+  - name: 菜鸟工具
+    url: https://c.runoob.com/
+    img: https://api.iowen.cn/favicon/c.runoob.com.png
+    description: 菜鸟工具，为开发设计人员提供在线工具，提供在线PHP、Python、 CSS、JS 调试，中文简繁体转换，进制转换等工具
+
+# 开发社区
+community:
+  - name: Stack Overflow
+    img: https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a
+    url: https://juejin.cn/
+    description: 全球最受程序员欢迎的开发社区
+  - name: CSDN
+    img: https://g.csdnimg.cn/static/logo/favicon32.ico
+    url: https://www.csdn.net/
+    description: 全球最大中文IT社区，为IT专业技术人员提供最全面的信息传播和服务平台
+  - name: 博客园
+    img: https://npm.elemecdn.com/ethan4116-blog/nav/images/icons/kf-sqs/bky.png
+    url: https://www.cnblogs.com/
+    description: 开发者的网上家园
+  - name: 掘金
+    img: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/apple-touch-icon.png
+    url: https://juejin.cn/
+    description: 一个帮助开发者成长的社区
+  - name: SegmentFault
+    img: https://npm.elemecdn.com/ethan4116-blog/nav/images/icons/kf-sqs/touch-icon.png
+    url: https://segmentfault.com/
+    description: SegmentFault 思否是中国领先的新一代开发者社区和专业的技术媒体
+  - name: stackOverflow中文版
+    img: https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196
+    url: https://www.soinside.com/
+    description: 中文版stackOverflow问题社区
+  - name: 开发者头条
+    img: https://api.iowen.cn/favicon/toutiao.io.png
+    url: https://toutiao.io/
+    description: 开发者头条，程序员必装的App。使用开发者头条App，程序员可以阅读头条新闻、分享技术文章、发布开源项目，订阅技术极客/技术团队开通的独家号/团队号和关注编程牛人。
+  - name: 开源中国
+    img: https://www.oschina.net/favicon.ico
+    url: https://www.oschina.net/
+    description: OSCHINA.NET 是目前领先的中文开源技术社区
+  - name: HeapDump
+    img: https://heapdump.cn/favicon.ico
+    url: https://heapdump.cn/
+    description: HeapDump目前国内性能问题社区
+  - name: 51CTO
+    img: https://api.iowen.cn/favicon/www.51cto.com.png
+    url: https://www.51cto.com/
+    description: 51CTO是中国领先的IT技术在线学习平台
+  - name: 云栖社区
+    img: https://npm.elemecdn.com/ethan4116-blog/nav/images/icons/kf-sqs/aliyun.png
+    url: https://developer.aliyun.com/
+    description: 阿里云面向开发者的开放型社区
+  - name: 极术社区
+    img: https://npm.elemecdn.com/ethan4116-blog/nav/images/icons/kf-sqs/aijishu.png
+    url: https://aijishu.com/
+    description: 连接开发者与智能计算生态
+  - name: V2EX
+    img: https://www.v2ex.com/static/img/v2ex_192.png
+    url: https://www.v2ex.com/
+    description: 创意工作者的社区，讨论编程、设计、硬件、游戏等令人激动的话题
+  - name: ITeye
+    img: https://www.iteye.com/favicon.ico
+    url: https://www.iteye.com/
+    description: 连接开发者与智能计算生态
+  - name: infoQ
+    img: https://api.iowen.cn/favicon/www.infoq.cn.png
+    url: https://www.infoq.cn/
+    description: infoQ是一个实践驱动，以社区为中心的技术媒体社区
+  - name: GitChat
+    img: https://images.gitchat.cn/FpdQSGLQ9JWwdHIQHK7Cp4m0LEXj
+    url: https://gitbook.cn/
+    description: GitChat 是一款基于微信平台的知识分享产品。通过这款产品我们希望改变IT知识的学习方式。
+  - name: 牛客网
+    img: https://www.nowcoder.com//favicon.ico
+    url: https://www.nowcoder.com/
+    description: 找工作神器、笔试题库面试社区
+  - name: Github中文社区
+    img: https://api.iowen.cn/favicon/www.githubs.cn.png
+    url: https://www.githubs.cn/
+    description: GitHub中文社区，是国内领先的开源社区，是一个帮您发现GitHub上优质开源项目的地方
+  - name: Vue.js
+    img: https://api.iowen.cn/favicon/v3.cn.vuejs.org.png
+    url: https://vue-js.com/
+    description: 最大的中国国内专业vue.js中文社区
+  - name: Vue
+    img: https://api.iowen.cn/favicon/v3.cn.vuejs.org.png
+    url: https://vuejsexamples.com/
+    description: 全国一些vue常见的案例的学习社区
+  - name: React
+    img: http://reactchina.sxlcdn.com/uploads/default/optimized/2X/d/d63df37517ee7681c2fc2d881564d16e1f912453_2_32x32.png
+    url: http://react-china.org/
+    description: React中文社区
+  - name: React
+    img: https://api.iowen.cn/favicon/zh-hans.reactjs.org.png
+    url: https://reactjsexample.com/
+    description: 收录全球一些React常见的案例的学习社区
+  - name: Node
+    img: https://nodejs.org/static/images/logo.svg
+    url: https://cnodejs.org/
+    description: Node学习专业技术社区
+  - name: 编程学习网
+    img: http://www.phpxs.com/favicon.ico
+    url: http://www.phpxs.com/
+    description: 编程学习资源教程网，Python教程、C++教程、PHP教程、JAVA教程等等
+  - name: Spring4all
+    img: http://www.spring4all.com/favicon.ico
+    url: http://spring4all.com/
+    description: 国内首个Spring及Spring Cloud 构建微服务架构的交流社区
+  - name: 墨滴
+    img: https://npm.elemecdn.com/ethan4116-blog/nav/images/icons/kf-sqs/aijishu.png
+    url: https://mdnice.com/
+    description: 看颜值的学习文章社区
+  - name: 玩Android
+    img: http://www.zsc7454.cn/assets/images/logos/wanAndroid.png
+    url: https://wanandroid.com/
+    description: 玩安卓的交流学习平台
+  - name: open-open
+    img: https://www.open-open.com/favicon.ico
+    url: https://www.open-open.com/
+    description: 深度开源是一个分享开源项目代码、交流开源项目/代码的平台
+  - name: Hollis
+    url: http://www.hollischuang.com/
+    img: https://www.hollischuang.com/wp-content/uploads/2020/09/cropped-icon-32x32.jpeg
+    description: 常见的Java编程学习问题社区
+
+# 教育平台
+platform:
+  - name: 腾讯课堂
+    img: https://api.iowen.cn/favicon/ke.qq.com.png
+    url: https://ke.qq.com/
+    description: 腾讯课堂：腾讯推出的专业职业培训在线教育平台
+  - name: 慕课网
+    img: https://www.imooc.com/favicon.ico
+    url: https://www.imooc.com/
+    description: 全部课程_IT培训精品课程-慕课网
+  - name: 译学馆
+    img: https://api.iowen.cn/favicon/www.yxgapp.com.png
+    url: https://www.yxgapp.com/
+    description: 译学馆是一个专注于译制知识视频的平台。
+  - name: 网易云课堂
+    img: https://api.iowen.cn/favicon/study.163.com.png
+    url: https://study.163.com/
+    description: 一个专注于成人终身学习的在线教育平台。立足于实用性的要求, 与优质的教育内容创作者一起，为您提供全面、有效的在线学习内容
+  - name: 我要自学网
+    img: https://www.51zxw.net/favicon.ico
+    url: https://www.51zxw.net/
+    description: 免费的技术视频学习-我要自学网
+  - name: 前锋教育
+    img: http://www.mobiletrain.org/favicon.ico
+    url: http://video.mobiletrain.org/
+    description: 免费的技术视频学习-千峰教育
+  - name: 尚学堂
+    img: https://www.bjsxt.com/favicon.ico
+    url: https://ke.qq.com/
+    description: 免费视频教程和在线观看和下载-尚学堂
+  - name: 尚硅谷
+    img: http://www.atguigu.com/favicon.ico
+    url: https://ke.qq.com/
+    description: 免费视频教程和在线观看和下载-尚学堂
+  - name: 黑马程序员
+    img: http://yun.itheima.com/favicon.ico
+    url: https://yun.itheima.com/
+    description: 免费视频教程和在线观看和下载-尚学堂
+  - name: 极客学院
+    img: https://www.jikexueyuan.com/favicon.ico
+    url: https://www.jikexueyuan.com/
+    description: 免费视频教程和在线观看和下载-尚学堂
+  - name: 开课吧
+    img: https://img.kaikeba.com/kkb_portal_icon.ico
+    url: https://www.kaikeba.com/
+    description: 开课吧-数字化人才在线教育平台
+
+# 开发文档
+developDocument:
+  - name: Spring Boot
+    url: https://spring.io/projects/spring-boot
+    img: https://spring.io/images/favicon-9d25009f65637a49ac8d91eb1cf7b75e.ico
+    description: Spring Boot 文档
+  - name: OverAPI
+    url: https://overapi.com/
+    img: https://overapi.com/favicon.ico
+    description: 收录各个编程语言汇总导航
+  - name: 地鼠文档
+    url: https://www.topgoer.cn/
+    img: https://www.topgoer.cn/favicon.ico
+    description: GO文档汇总
+  - name: OrcHome
+    url: https://www.orchome.com/
+    img: https://www.orchome.com/index/image/orcHome.png
+    description: 中间件、K8S文档
+  - name: MDN
+    url: https://developer.mozilla.org/zh-CN/
+    img: https://developer.mozilla.org/favicon.ico
+    description: HTML、CSS基本文档开发
+  - name: ECMScripts
+    url: https://es6.ruanyifeng.com/
+    img: https://es6.ruanyifeng.com/favicon.ico
+    description: 阮一峰ES6入门教程
+  - name: Vue.js
+    url: https://cn.vuejs.org/guide/introduction.html
+    img: https://api.iowen.cn/favicon/v3.cn.vuejs.org.png
+    description: Vue.js官方中文文档
+  - name: LayUI
+    url: https://layuion.com/
+    img: https://layuion.com/favicon.ico
+    description: LayUI中文文档
+  - name: React
+    url: https://react.docschina.org/
+    img: https://api.iowen.cn/favicon/zh-hans.reactjs.org.png
+    description: React官方中文文档
+  - name: Angular
+    url: https://angular.cn/
+    img: https://api.iowen.cn/favicon/angular.io.png
+    description: Angular官方中文文档
+  - name: Flutter中文
+    url: https://flutterchina.club/
+    img: https://cdn.jsdelivr.net/gh/flutterchina/website@1.0/images/favicon.png
+    description: Flutter中文网是中国最大的Flutter开发者交流学习平台，致力于打造Flutter开发中文社区。
+  - name: Dart
+    url: https://dart.cn/
+    img: https://dart.cn/assets/shared/dart/icon/64.png
+    description: Dart编程语言主页| Dart中文文档
+  - name: Kotlin语言
+    url: https://www.kotlincn.net/
+    img: https://www.kotlincn.net/assets/images/apple-touch-icon-72x72.png
+    description: Kotlin语言中文站点
+  - name: Bootstrap中文网
+    url: https://www.bootcss.com/
+    img: https://cdn.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.31/dist/ico/apple-touch-icon-precomposed.png
+    description: Bootstrap是Twitter推出的一个用于前端开发的开源工具包。
+  - name: Jquery
+    url: https://www.jquery123.com/
+    img: https://www.jquery123.com/assets/images/favicon.ico
+    description: jQuery：用更少的代码完成更多工作！jQuery 是一个最流行的 JavaScript 工具库
+  - name: Element
+    url: https://element.eleme.cn/#/zh-CN
+    img: https://element.eleme.cn/favicon.ico
+    description: Element为开发者准备的基于 Vue 2.0和Vue3.0 的桌面端组件库
+  - name: WebPack
+    url: https://www.webpackjs.com/
+    img: https://api.iowen.cn/favicon/webpack.github.io.png
+    description: Webpack官方中文文档
+  - name: Vite
+    url: https://vitejs.cn/
+    img: https://vitejs.cn/logo.svg
+    description: Vite中文文档-下一代开发与构建工具
+  - name: 微信小程序开发文档
+    url: https://developers.weixin.qq.com/doc/
+    img: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+    description: V微信小程序，微信小游戏，微信公众号，微信支付等等文档入口。
+
+# 三方服务
+service:
+  - name: 高德地图
+    url: https://lbs.amap.com/
+    img: https://a.amap.com/pc/static/favicon.ico
+    description: 高德开发平台
+  - name: 百度地图
+    url: https://lbsyun.baidu.com/
+    img: http://mapopen-website-wiki.cdn.bcebos.com/LOGO/lbsyunlogo_icon.ico
+    description: 百度开发平台
+  - name: 腾讯地图
+    url: https://lbs.qq.com/
+    img: https://mapapi.qq.com/web/lbs/logo/favicon.ico
+    description: 腾讯地图开发平台
+  - name: 讯飞开放平台
+    url: https://www.xfyun.cn/static/favicon.ico
+    img: https://www.xfyun.cn/static/favicon.ico
+    description: 讯飞开放平台-以语音交互为核心的人工智能开放平台
+  - name: 聚合数据
+    url: https://www.juhe.cn/
+    img: https://juheimg.oss-cn-hangzhou.aliyuncs.com/www/v7/headerFooter/logo-white.png
+    description: 聚合数据-API数据接口,免费API数据调用
+  - name: 七牛云
+    url: https://www.qiniu.com/
+    img: https://qiniu.staticfile.org/favicon.ico
+    description: 文件上传服务
+  - name: 友盟
+    url: https://www.umeng.com/
+    img: https://img.alicdn.com/tfs/TB1cA4QXeuSBuNjy1XcXXcYjFXa-32-32.ico
+    description: 高德开发平台
+  - name: 微信开放平台
+    url: https://open.weixin.qq.com/
+    img: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+    description: 微信开放平台
+  - name: 支付宝开放平台
+    url: https://open.alipay.com/
+    img: https://img.alicdn.com/tfs/TB1qEwuzrj1gK0jSZFOXXc7GpXa-32-32.ico
+    description: 支付宝开放平台
+  - name: 京东开放平台
+    url: https://open.jd.com/
+    img: http://www.zsc7454.cn/assets/images/logos/tuisong.png
+    description: 京东开放平台
+
+# 开发工具
+developTools:
+  - name: Vs code
+    url: https://code.visualstudio.com/
+    img: https://api.iowen.cn/favicon/code.visualstudio.com.png
+    description: 微软开发且跨平台的免费源代码编辑器
+  - name: Intellij IDEA
+    url: https://www.jetbrains.com/idea/
+    img: https://www.jetbrains.com/idea/img/idea-edu.svg
+    description: IDEA 全称 IntelliJ IDEA，是java编程语言开发的集成环境
+  - name: webStorm
+    url: https://www.jetbrains.com/webstorm/
+    img: https://api.iowen.cn/favicon/www.jetbrains.com.png
+    description: WebStorm 是JetBrains公司旗下一款JavaScript 开发工具
+  - name: Eclipse
+    url: https://www.eclipse.org/downloads/
+    img: https://api.iowen.cn/favicon/www.eclipse.org.png
+    description: Eclipse 是一个开放源代码的、基于Java的可扩展开发平台
+SSHTools:
+  - name: Xshell
+    url: https://www.xshell.com/zh/
+    img: https://api.iowen.cn/favicon/www.xshell.com.png
+    description: Xshell 是一个强大的安全终端模拟软件，它支持SSH1, SSH2, 以及Microsoft Windows 平台的TELNET 协议
+  - name: SecureCRT
+    url: https://www.vandyke.com/cgi-bin/releases.php
+    img: https://api.iowen.cn/favicon/www.vandyke.com.png
+    description: SecureCRT是一款支持SSH（SSH1和SSH2）的终端仿真程序，简单地说是Windows下登录UNIX或Linux服务器主机的软件
+  - name: FinalShell
+    url: https://www.hostbuf.com/
+    img: https://api.iowen.cn/favicon/www.hostbuf.com.png
+    description: FinalShell是一体化的的服务器,网络管理软件,不仅是ssh客户端,还是功能强大的开发,运维工具,充分满足开发,运维需求
+  - name: PuTTY
+    url: https://www.puttygen.com/
+    img: https://api.iowen.cn/favicon/www.puttygen.com.png
+    description: PuTTY 是一个纯命令无界面的连线软件。较早的版本仅支援 Windows 平台
+  - name: mobaxterm
+    url: https://mobaxterm.mobatek.net/
+    img: https://api.iowen.cn/favicon/mobaxterm.mobatek.net.png
+    description: mobaxterm工具其主要面向的用户是网络管理人员，但也可以用来当ssh工具使用
+archiveTools:
+  - name: Postman
+    url: https://www.postman.com/
+    img: https://api.iowen.cn/favicon/www.postman.com.png
+    description: Postman是一个接口测试工具，不仅可以调试简单的css、html、脚本等简单的网页基本信息，Postman还可以发送几乎所有类型的HTTP请求
+  - name: Apipost
+    url: https://www.apipost.cn/
+    img: https://api.iowen.cn/favicon/www.apipost.cn.png
+    description: Apipost是一个支持模拟POST、GET、PUT等常见HTTP请求，支持团队协作，并可直接生成并导出接口文档的API 文档、调试、Mock、测试一体化协作平台
+  - name: Apifox
+    url: https://www.apifox.cn/
+    img: https://api.iowen.cn/favicon/www.apifox.cn.png
+    description: Apifox = Postman + Swagger + Mock + JMeter。集接口文档工具、接口Mock工具、接口自动化测试工具、接口调试工具于一体
+  - name: Jmeter
+    url: https://jmeter.apache.org/
+    img: https://api.iowen.cn/favicon/jmeter.apache.org.png
+    description: JMeter(开源)广泛用于功能API测试，尽管它实际上是为负载测试创建的。
+
+# 在线文档
+onlineDocument:
+  - name: 石墨文档
+    url: https://shimo.im/
+    img: https://api.iowen.cn/favicon/shimo.im.png
+    description: 石墨文档,全新一代云Office办公软件,支持多人在线协同办公,独有内容级安全，全程留痕可追溯.PC/移动双端覆盖,随时随地在线协同办公,在线文档即写即存统一管理,高效共享文档、表格,是企业云协同办公系统和在线办公平台的更好选择
+  - name: 腾讯文档
+    url: https://docs.qq.com/
+    img: https://api.iowen.cn/favicon/docs.qq.com.png
+    description: 腾讯文档是一款可多人协作的在线文档，可同时编辑Word、Excel和PPT文档，云端实时保存。可针对QQ、微信好友设置文档访问、编辑权限，支持多种版本Word、Excel和PPT文档模板
+  - name: 印象笔记
+    url: https://www.yinxiang.com
+    img: https://api.iowen.cn/favicon/www.yinxiang.com.png
+    description: 作为你的第二大脑，记录就用印象笔记。印象笔记可以帮助你高效工作、学习与生活。支持无缝多端同步，快速保存微信、微博、网页等内容，一站式完成信息的收集备份、高效记录、分享和永久保存
+  - name: 为知笔记
+    url: https://www.wiz.cn/zh-cn
+    img: https://api.iowen.cn/favicon/www.wiz.cn.png
+    description: 从个人笔记到团队知识库，构建更强大的知识图谱
+  - name: 有道云笔记
+    url: http://note.youdao.com/
+    img: https://api.iowen.cn/favicon/note.youdao.com.png
+    description: 有道云笔记是网易旗下专注办公提效的笔记软件，支持多端同步，用户可以随时随地对线上资料进行编辑、分享以及协同
+  - name: 幕布
+    url: https://mubu.com/
+    img: https://api.iowen.cn/favicon/mubu.com.png
+    description: 幕布是一款结合了大纲笔记和思维导图的头脑管理工具，帮你用更高效的方式和更清晰的结构来记录笔记、管理任务、制定计划甚至是组织头脑风暴。完整覆盖电脑端和移动端
+  - name: 语雀
+    url: https://www.yuque.com/
+    img: https://api.iowen.cn/favicon/www.yuque.com.png
+    description: 优雅高效的在线文档编辑与协同工具，让每个企业轻松拥有文档中心，阿里巴巴集团内部使用多年，众多中小企业首选。主流 Office 文件全兼容，多人协同，轻松拥有团队知识库。企业文档中心化管理，各类文档井然有序，独立域名，随时随地安全获取。语雀致力于帮助每一个个体与企业，都拥有珍贵的知识财富。写文档，就用语雀
+  - name: 飞书
+    url: https://www.feishu.cn/
+    img: https://api.iowen.cn/favicon/www.feishu.cn.png
+    description: 飞书是真正的一站式企业沟通与协作系统台、音视频会议软件平台，整合即时沟通、日历、音视频会议、电话会议、云文档（在线文档编辑）、云盘、工作台、 okr绩效考核、考勤打卡等功能于一体，打造高效的办公方式，加速企业成长
+  - name: 金山文档
+    url: https://www.kdocs.cn/
+    img: https://api.iowen.cn/favicon/www.kdocs.cn.png
+    description: 金山文档 是一款可多人实时协作编辑的文档创作工具。修改后自动保存，无需转换格式，告别反复传文件。支持设置不同成员查看或编辑权限。数据安全隔离、实时同步，与他人共享工作资料，轻松完成文档协作任务。
+  - name: Notion
+    url: https://www.notion.so/
+    img: https://api.iowen.cn/favicon/www.notion.so.png
+    description: 一个新的工具，将您的日常工作应用程序融合为一体。它是您和您的团队的一体化工作空间
+  - name: wolai
+    url: https://www.wolai.com/
+    img: https://api.iowen.cn/favicon/www.wolai.com.png
+    description: 用我来”构建个人的信息库、笔记、知识、待办、计划、剪藏、数据标签：个人知识管理
+chatting:
+  - name: 企业微信
+    url: https://work.weixin.qq.com/
+    img: https://work.weixin.qq.com/favicon.ico
+    description: 企业微信
+  - name: 钉钉
+    url: https://www.dingtalk.com/
+    img: https://gw.alicdn.com/imgextra/i3/O1CN01eMicSg1GVD4uXMWGv_!!6000000000627-73-tps-32-32.ico
+    description: 钉钉
+  - name: 腾讯会议
+    url: https://meeting.tencent.com/
+    img: https://meeting.tencent.com/favicon.ico
+    description: 腾讯会议
+  - name: zoom
+    url: https://zoom.us/
+    img: https://st1.zoom.us/zoom.ico
+    description: zoom
+PPT:
+  - name: OfficePLUS
+    url: https://www.officeplus.cn/
+    img: https://api.iowen.cn/favicon/www.officeplus.cn.png
+    description: OfficePLUS是微软Office官方在线模板网站，为您提供各类精品PPT模板
+  - name: 优品PPT
+    url: https://www.ypppt.com/
+    img: https://api.iowen.cn/favicon/www.ypppt.com.png
+    description: 优品PPT模板网是一家专注于分享高质量的免费PPT模板下载网站，包括图表、背景图片、素材、教程等各类PPT资源
+  - name: PPT超级市场
+    url: https://www.pptsupermarket.com/
+    img: https://api.iowen.cn/favicon/www.pptsupermarket.com.png
+    description: 免费、优质、高效、安全的PPT模板下载与PPT定制
+  - name: PPT素材网
+    url: https://www.pptsucai.com/
+    img: https://adzhp.net/wp-content/uploads/2021/06/logo.jpg
+    description: PPT素材网提供PPT模板免费下载,PPT背景图,PPT素材,PPT背景,免费PPT模板下载,PPT
+  - name: PPT超级市场
+    url: https://www.pptsupermarket.com/
+    img: https://api.iowen.cn/favicon/www.pptsupermarket.com.png
+    description: 免费、优质、高效、安全的PPT模板下载与PPT定制
+  - name: PPT之家
+    url: https://www.52ppt.com/
+    img: https://api.iowen.cn/favicon/www.52ppt.com.png
+    description: 我们才华横溢的社区成员共享超过100万的高品质PPT模板和素材资源
+  - name: 51PPT
+    url: https://www.51pptmoban.com/
+    img: https://api.iowen.cn/favicon/www.51pptmoban.com.png
+    description: 51ppt模板网提供部分原创ppt模板及PPTer分享的优质ppt模板下载，动态ppt模板
+  - name: 逼格PPT
+    url: http://www.tretars.com/ppt-templates
+    img: https://webstack.cc/assets/images/logos/tretars.png
+    description: 最好的PPT模板大全
+  - name: 叮当设计
+    url: https://www.dingdangsheji.com/
+    img: https://api.iowen.cn/favicon/www.dingdangsheji.com.png
+    description: 叮当设计网致力于分享优质设计资源，提供PPT模板、PSD源文件、海报
+
+# 思维导图
+mind:
+  - name: XMind思维导图
+    url: https://xmind.cn/
+    img: https://api.iowen.cn/favicon/www.xmind.cn.png
+    description: Xmind是一款 全功能 的思维导图和头脑风暴软件。像大脑的瑞士军刀一般，助你理清思路，捕捉创意
+  - name: MindMaster
+    url: https://www.edrawsoft.cn/mindmaster/
+    img: https://api.iowen.cn/favicon/www.edrawsoft.cn.png
+    description: MindMaster支持客户端、移动端、平板和网页版，可实现多端同步，并且支持通过小程序、网页链接的方式进行分享
+  - name: GitMind
+    url: https://gitmind.cn/
+    img: https://qncdn.aoscdn.com/local/gitmind.cn/img/gitmind/png/logo.png
+    description: GitMind是一款线上保存思维导图的网站
+  - name: 迅捷思维导图
+    url: https://www.siweidaotu.com/
+    img: https://api.iowen.cn/favicon/www.siweidaotu.com.png
+    description: 迅捷思维导图可绘制各种结构的思维导图,支持xmind,mmap等多种格式,支持大纲视图,拥有海量思维导图模板,
+  - name: ProcessOn
+    url: https://www.processon.com/
+    img: https://www.processon.com/favicon.ico
+    description: processOn是一个在线协作绘图平台，支持在线创作流程图、思维导图、组织结构图、网络拓扑图、BPMN、UML图、UI界面原型设计、iOS界面原型设计等
+
+# 在线工具
+tools:
+  - name: sojson
+    url: https://www.sojson.com/
+    img: https://api.iowen.cn/favicon/www.sojson.com.png
+    description: JSON在线提供在线JSON解析
+  - name: 超能搜
+    url: https://www.chaonengso.com/
+    img: https://www.chaonengso.com/favicon.ico
+    description: 收录数十款百度网盘搜索引擎，百度云网盘搜索工具，百度云网盘解析工具
+  - name: 临时邮箱
+    url: http://24mail.chacuo.net/
+    img: https://api.iowen.cn/favicon/temp-mail.org.png
+    description: 24小时有效（不关闭网页），每秒可以处理(1000封邮件)，支持更换邮箱、设置临时邮箱
+  - name: 文叔叔
+    url: https://www.wenshushu.cn/
+    img: https://www.chaonengso.com/favicon.ico
+    description: 免费空间 40GB，一款永不限速的云存储产品，可以在线随时传送文件
+  - name: 正则大全
+    url: https://any86.github.io/any-rule/
+    img: https://npm.elemecdn.com/ethan4116-blog/nav/images/icons/usely-tools/reg.ico
+    description: 在线正则校验
+translate:
+  - name: 有道词典
+    url: https://www.youdao.com/
+    img: https://shared.ydstatic.com/images/favicon.ico
+    description: 免费，即使的多语种在线翻译
+  - name: 谷歌翻译
+    url: https://translate.google.com.hk/
+    img: https://translate.google.com/favicon.ico
+    description: 谷歌翻译
+  - name: 百度翻译
+    url: https://fanyi.baidu.com/
+    img: https://fanyi.baidu.com//favicon.ico
+    description: 200多种语言互译，沟通全世界
+  - name: Deel翻译
+    url: https://www.deepl.com/translator
+    img: https://static.deepl.com/img/logo/DeepL_Logo_darkBlue_v2.svg
+    description: 全世界最精准的翻译
+
+# 招聘兼职
+invite:
+  - name: 智联招聘
+    url: https://www.zhaopin.com/
+    img: http://www.zsc7454.cn/assets/images/logos/sketchappsources.png
+    description: 智联招聘-招聘,招聘网,人才网,求职,找工作
+  - name: Boss直聘
+    url: https://www.zhipin.com/
+    img: https://www.zhipin.com//favicon.ico
+    description: Boss直聘-找工作就来BOSS直聘和Boss开聊吧！
+  - name: 前程无忧
+    url: https://www.51job.com/
+    img: https://www.51job.com/favicon.ico
+    description: 招聘网_人才网_找工作_求职_上前程无忧
+  - name: 拉勾网
+    url: https://www.lagou.com/
+    img: https://www.lgstatic.com/lg-www-fed/common/static/favicon_faed927.ico
+    description: 拉勾招聘,互联网招聘,求职,找工作,招聘,招聘网站
+  - name: 猎聘网
+    url: https://www.liepin.com/
+    img: https://concat.lietou-static.com/fe-www-pc/v5/static/favicon.0bee2363.ico
+    description: 猎聘网，找工作求职
+  - name: 程序员客栈
+    url: https://www.proginn.com/
+    img: https://stacdn.proginn.com/image/header/new/project@2x.png
+    description: 程序员兼职,程序员私活,程序员接单平台-程序员客栈
+  - name: 五百丁简历
+    url: https://www.500d.me/
+    img: https://api.iowen.cn/favicon/www.500d.me.png
+    description: 平台汇集了海量优秀行业范例，精美模板，可以满足求职者的各类简历需求，有效提升求职成功率，做好简历就上五百丁
+  - name: 乔布简历
+    url: http://cv.qiaobutang.com/
+    img: https://api.iowen.cn/favicon/cv.qiaobutang.com.png
+    description: 乔布简历是专门制作简历的网站，提供海量的优秀富有创意的电子版简历模板、大学生简历模板、中英文简历模板下载
+  - name: 知页简历
+    url: https://www.zhiyeapp.com/
+    img: https://api.iowen.cn/favicon/www.zhiyeapp.com.png
+    description: 知页简历目前已有全球超过700万精英用户正在使用,广受求职者和专业HR喜爱,名企精英都在用的知页简历！
+  - name: 简历本
+    url: https://www.jianliben.com/
+    img: https://npm.elemecdn.com/ethan4116-blog/nav/images/icons/job-tools/jianliben.ico
+    description: 专业简历模板，可随时随地将简历下载，免费下载导出
+  - name: 超级简历
+    url: https://www.wondercv.com
+    img: https://npm.elemecdn.com/ethan4116-blog/nav/images/icons/job-tools/cjjianli.ico
+    description: 提供各行业中英文简历模板免费下载和真人大牛简历范文参考
+
+# 软件工具
+crack:
+  - name: Go破解
+    url: https://www.sharerw.com/a/jxtv/
+    img: https://gopojie.com/favicon.ico
+    description: Go破解|GoPoJie.COM-破解软件,源码,素材,游戏,系统,分享下载！
+  - name: 分享者
+    url: https://www.gopojie.com/
+    img: https://www.sharerw.com/zb_users/theme/suiranx_air/image/favicon.ico
+    description: 精选TV-分享者、盒子软件、
+  - name: 吾爱破解
+    url: https://www.52pojie.cn/
+    img: https://www.52pojie.cn/favicon.ico
+    description: 软件破解论坛
+  - name: 大牛破解
+    url: https://www.daniu523.com/forum.php
+    img: https://www.daniu523.com/template/acgi_ox0/images/logo.png
+    description: 软件破解论坛
+mac:
+  - name: Macbl
+    url: https://www.macbl.com/
+    img: https://api.iowen.cn/favicon/www.macbl.com.png
+    description: Macbl 提供最全面的Mac软件免费下载，分享最新的Mac游戏、图形设计软件
+  - name: 未来mac下载
+    url: https://mac.orsoon.com/
+    img: https://api.iowen.cn/favicon/mac.orsoon.com.png
+    description: 苹果mac电脑软件下载有最好的mac软件下载和mac游戏下载,我们为您提供丰富的的mac软件
+  - name: 赤狐Mac
+    url: https://www.foxmac.com/
+    img: https://www.foxmac.com/wp-content/uploads/2020/02/1581495123-7751d48df8affa0.ico
+    description: Mac软件免费下载
+  - name: Mac毒
+    url: https://www.macdo.cn/
+    img: https://api.iowen.cn/favicon/www.macdo.cn.png
+    description: Mac毒每天提供最新mac破解软件免费下载同时分享Mac使用技巧，致力于打造全网最全Mac破解软件与Mac技巧平台
+  - name: 苹果软件盒子
+    url: https://www.macappbox.com/
+    img: https://api.iowen.cn/favicon/www.macappbox.com.png
+    description: 苹果软件盒子提供最全面的Mac软件免费下载，分享最新的Mac游戏
+windows:
+  - name: 大眼仔旭
+    url: http://www.dayanzai.me/
+    img: https://api.iowen.cn/favicon/www.dayanzai.me.png
+    description: 精品软件修改分享
+  - name: 果核剥壳
+    url: https://www.ghxi.com/
+    img: https://api.iowen.cn/favicon/www.ghxi.com.png
+    description: WINDOWS软件 MAC软件 安卓软件
+  - name: 佛系软件
+    url: https://foxirj.com/
+    img: https://foxirj.com/favicon.ico
+    description: 破解WINDOWS软件 MAC软件 安卓软件
+  - name: 软件先锋
+    url: https://soft.macxf.com/
+    img: https://soft.macxf.com/favicon.ico
+    description: 常用Windows软件下载和壁纸字体等
+  - name: 爱资源
+    url: https://www.iwyu.com/
+    img: https://www.iwyu.com/favicon.ico
+    description: 常用Windows软件和Mac软件下载
+  - name: 小众软件
+    url: https://www.appinn.com/
+    img: https://www.appinn.com/favicon.ico
+    description: 小众软件是一个分享、体验、评测电脑软件、手机应用、互联网产品的网站
+
+# 娱乐
+movie:
+  - name: 漫岛动漫
+    url: https://www.mandao.tv/
+    img: https://ifx8.com/assets/images/logos/uicn.png
+    description: 一个免费看动漫的网站
+  - name: Z站动漫网
+    url: http://www.zzzfun.com/
+    img: https://ifx8.com/assets/images/logos/zzfun.png
+    description: 传说中的Z站，资源丰富，更新速度快，画质高清
+  - name: 8K影视
+    url: http://www.8kvod.com/
+    img: https://ifx8.com/assets/images/logos/8Kys.png
+    description: 画质高清流畅，配合IDM和M3U8可下载视频
+  - name: 55影视
+    url: https://www.555dd6.com/
+    img: https://ifx8.com/assets/images/logos/555.png
+    description: 免费在线影视，配合IDM和M3U8可下载视频，请忽略站内广告
+  - name: 无限影视网
+    url: https://www.wxtv.net/
+    img: https://www.wxtv.net/favicon.ico
+    description: 画质非常高清，播放流畅不卡顿
+  - name: 鸭奈飞影视
+    url: https://yanetflix.com/
+    img: https://ifx8.com/assets/images/logos/xfys.png
+    description: 画质非常高清，播放流畅不卡顿
+  - name: 我爱影视吧
+    url: https://www.xifanys.com/
+    img: https://api.iowen.cn/favicon/yanetflix.com.png
+    description: 画质非常高清，播放流畅不卡顿
+music:
+  - name: QQ音乐
+    url: https://y.qq.com/
+    img: https://api.iowen.cn/favicon/y.qq.com.png
+    description: QQ音乐是腾讯公司推出的一款网络音乐服务产品，海量音乐在线试听、新歌热歌在线首发、歌词翻译、手机铃声下载、高品质无损音乐试听、海量无损曲库、正版音乐下载
+  - name: 酷狗音乐
+    url: https://www.kugou.com/
+    img: https://api.iowen.cn/favicon/www.kugou.com.png
+    description: 酷狗音乐旗下最新最全的在线正版音乐网站，本站为您免费提供最全的在线音乐试听下载，以及全球海量电台和MV播放服务、最新音乐播放器下载
+  - name: 网易云音乐
+    url: https://music.163.com/
+    img: http://p3.music.126.net/tBTNafgjNnTL1KlZMt7lVA==/18885211718935735.jpg
+    description: 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活
+  - name: 虾米音乐
+    url: https://www.xiami.com/
+    img: https://api.iowen.cn/favicon/www.xiami.com.png
+    description: 虾米音乐是专业音乐内容发现平台，依托专业曲库内容和精准推荐算法，带你发现音乐惊喜，提升音乐审美
+  - name: 千千音乐
+    url: https://music.taihe.com/
+    img: https://api.iowen.cn/favicon/music.taihe.com.png
+    description: 千千音乐致力于提供更专业、更懂你的「场景音乐」，打造一款个性化、智能化的音乐伴侣产品，让你感受音乐本身的魅力。这里有来自不同国家的数百名音乐设计师，为你提供更好的音乐服务
+  - name: 5SING
+    url: http://5sing.kugou.com/index.html
+    img: https://api.iowen.cn/favicon/5sing.kugou.com.png
+    description: 中国原创音乐基地，数字音乐网站，汇集了大量的网络歌手的原创音乐歌曲及翻唱歌曲，提供大量歌曲的伴奏以及歌词免费下载，将喜爱的音乐或者歌曲作为手机彩铃下载
+  - name: 无损音乐吧
+    url: https://kaifa.baidu.com/
+    img: https://ifx8.com/assets/images/logos/zcool.png
+    description: 超多无损经典音乐，在线听，支持专辑下载
+book:
+  - name: 微信读书
+    url: https://weread.qq.com/
+    img: https://api.iowen.cn/favicon/weread.qq.com.png
+    description: 微信读书提供海量正版书籍、小说、漫画、公众号、听书，多设备同步实现跨屏阅读
+  - name: 书伴
+    url: https://bookfere.com/
+    img: https://api.iowen.cn/favicon/bookfere.com.png
+    description: 创建的目的是帮助您更便捷、深入地使用手中的Kindle阅读器，让读书成为生命的一部分
+  - name: 读书网
+    url: https://www.dushu.com/
+    img: https://api.iowen.cn/favicon/www.dushu.com.png
+    description: 全民阅读门户，专业中文图书搜索引擎,在线读书,提供各类免费电子书及图书导购服务
+  - name: 熊猫搜书
+    url: https://ebook.huzerui.com/#/
+    img: https://api.iowen.cn/favicon/ebook.huzerui.com.png
+    description: 熊猫搜书平台，提供免费电子书下载，mobi、epud、pdf、txt格式，kindle电子书下载
+  - name: 起点
+    url: https://bookfere.com/
+    img: https://api.iowen.cn/favicon/www.qidian.com.png
+    description: 创建的目的是帮助您更便捷、深入地使用手中的Kindle阅读器，让读书成为生命的一部分
+  - name: 17K小说网
+    url: https://bookfere.com/
+    img: https://stacdn.proginn.com/image/header/new/project@2x.png
+    description: 创建的目的是帮助您更便捷、深入地使用手中的Kindle阅读器，让读书成为生命的一部分
+  - name: 潇湘书院
+    url: https://bookfere.com/
+    img: https://stacdn.proginn.com/image/header/new/project@2x.png
+    description: 创建的目的是帮助您更便捷、深入地使用手中的Kindle阅读器，让读书成为生命的一部分
+  - name: 小说阅读网
+    url: https://www.readnovel.com/
+    img: https://ifx8.com/assets/images/logos/mfxszxyd.png
+    description: 完全免费的小说阅读网站
+  - name: 评书网
+    url: https://www.zgpingshu.com/
+    img: https://ifx8.com/assets/images/logos/psw.png
+    description: 在线评书、支持下载
+  - name: 鸠摩搜书
+    url: https://www.jiumodiary.com/
+    img: https://api.iowen.cn/favicon/www.jiumodiary.com.png
+    description: 鸠摩搜书, 提供各种格式的搜索书籍结果
+
+# 设计资源
+picture:
+  - name: iconfinder
+    url: https://www.iconfinder.com/
+    img: https://www.iconfinder.com/favicon.ico
+    description: 查找logo图片
+
+since: 2022
+
+busuanzi:
+  enable: true
+  position: sidebar # 'footer','sidebar'
+  pv: 本站总访问量$pv
+  uv: 本站总访客数$uv
+
+custom:
+  head:
+    |- # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+  body: |- # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+
+js:
+  header: /js/header.js
+  footer: /js/footer.js
+  jquery: /js/jquery-1.11.1.min.js
+  bootstrap: /js/bootstrap.min.js
+  TweenMax: /js/TweenMax.min.js
+  resizeable: /js/resizeable.min.js
+  joinable: /js/joinable.js
+  xenonApi: /js/xenon-api.min.js
+  xenonToggles: /js/xenon-toggles.min.js
+  xenonCustom: /js/xenon-custom.min.js
+  lozad: /js/lozad.min.js
+  html5shiv: /js/html5shiv.min.js
+  respond: /js/respond.min.js
+  busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
+css:
+  hclonely: /css/hclonely.css
+  fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
+  linecons: /css/fonts/linecons/css/linecons.min.css
+  fontawesome: /css/fonts/fontawesome/css/all.min.css
+  bootstrap: /css/bootstrap.min.css
+  xenonCore: /css/xenon-core.min.css
+  xenonComponents: /css/xenon-components.min.css
+  xenonSkins: /css/xenon-skins.min.css
+  nav: /css/nav.min.css
