@@ -119,17 +119,19 @@ hexo-navigation是编译后的文件也就是展示页面的仓库。而hexo-web
 
 进入个人设置获取token值，并复制，注意只显示一次，要提前复制
 
-<img src='https://s2.loli.net/2023/01/09/rZOnE7bws4dm9MQ.png'>
+<img src='https://cdn.jsdelivr.net/gh/sundayskys/blog-img@main/rZOnE7bws4dm9MQ.png'>
+
+
 
 
 
 设置token永不过期
 
-<img src='https://s2.loli.net/2023/01/09/GFMrL3vOnmUNZs8.png'>
+![](https://raw.githubusercontent.com/sundayskys/blog-img/main/GFMrL3vOnmUNZs8.png)
 
 给项目添加token值，ACCESS_TOKEN 就是上面变量的值
 
-<img src='https://s2.loli.net/2023/01/09/CFwrD6flOAy7Lnj.png'>
+![](https://raw.githubusercontent.com/sundayskys/blog-img/main/CFwrD6flOAy7Lnj.png)
 
 #### 部署上线
 
