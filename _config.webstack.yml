@@ -41,16 +41,16 @@ menu:
     icon: far fa-star
     config: navs
   - name: 技术博客
-    icon: far fa-star
+    icon: fa fa-podcast fa-fw
     config: blogs
   - name: 开发社区
-    icon: far fa-star
+    icon: fa fa-lightbulb fa-fw
     config: community
   - name: 视频教程
     icon: far fa-star
     config: platform
   - name: 开发文档
-    icon: far fa-star
+    icon: fa fa-folder-open fa-fw
     config: developDocument
 
   - name: 三方服务
@@ -62,61 +62,57 @@ menu:
     config: invite
 
   - name: 编程工具
-    icon: far fa-star
+    icon: fa fa-landmark
     submenu:
       - name: 开发工具
-        icon: fas fa-tools
         config: developTools
       - name: SSH工具
-        icon: fas fa-tools
         config: SSHTools
       - name: 接口文档
-        icon: fas fa-tools
+        config: archiveTools
+
+  - name: 设计导航
+    icon: fa fa-landmark
+    submenu:
+      - name: 原型设计
+        config: design
+      - name: 在线配色
+        config: SSHTools
+      - name: 高清图片
         config: archiveTools
 
   - name: 在线办公
-    icon: fas fa-tools
+    icon: fas fa-warehouse
     submenu:
       - name: 在线文档
-        icon: fas fa-tools
         config: onlineDocument
       - name: 会议聊天
-        icon: fas fa-blog
         config: chatting
       - name: PPT模板
-        icon: fas fa-tools
         config: PPT
       - name: 思维导图
-        icon: fas fa-blog
         config: mind
 
   - name: 软件工具
     icon: fas fa-tools
     submenu:
       - name: 在线工具
-        icon: fas fa-gears
         config: tools
       - name: 破解软件
-        icon: fas fa-tools
         config: crack
       - name: 苹果下载
-        icon: fas fa-blog
         config: mac
       - name: 微软下载
-        icon: fas
         config: windows
 
   - name: 在线娱乐
-    icon: fas fa-tools
+    icon: fas fa-palette
     submenu:
       - name: 在线观影
-        icon: fas fa-blog
         config: movie
       - name: 在线书籍
-        icon: fas fa-blog
         config: book
       - name: 在线音乐
-        icon: fas fa-blog
         config: music
 
 blogs:
@@ -588,6 +584,21 @@ archiveTools:
     url: https://jmeter.apache.org/
     img: https://api.iowen.cn/favicon/jmeter.apache.org.png
     description: JMeter(开源)广泛用于功能API测试，尽管它实际上是为负载测试创建的。
+
+# 设计师导航
+design:
+  - name: Dribbble
+    url: https://dribbble.com
+    img: https://cdn.dribbble.com/assets/favicon-b38525134603b9513174ec887944bde1a869eb6cd414f4d640ee48ab2a15a26b.ico
+    description: 全球UI设计师作品分享平台
+  - name: 优设
+    url: https://www.uisdc.com/
+    img: https://www.uisdc.com/favicon.ico
+    description: 设计师交流学习平台
+  - name: 站酷
+    url: https://www.zcool.com.cn/
+    img: https://static.zcool.cn/git_z/z/site/favicon.ico?version=1618914637608
+    description: 设计社区,UI设计,字体插画设计素材,高清壁纸
 
 # 在线文档
 onlineDocument:
