@@ -152,4 +152,6 @@ url: https://nav88.cc
 
 添加DNS解析
 
+![](https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-readme-homepage-2.png)
+
 ![](https://s2.loli.net/2023/01/09/Rruyn21zv9NLSgG.png)
