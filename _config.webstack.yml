@@ -74,12 +74,12 @@ menu:
   - name: 设计导航
     icon: fa fa-landmark
     submenu:
-      - name: 原型设计
+      - name: 设计交流
         config: design
       - name: 在线配色
         config: SSHTools
       - name: 高清图片
-        config: archiveTools
+        config: picture
 
   - name: 在线办公
     icon: fas fa-warehouse
@@ -227,6 +227,14 @@ navs:
     url: https://www.xue8nav.com/
     img: https://www.xue8nav.com/wp-content/uploads/2020/01/favicon.png
     description: 40万学习爱好者的学习导航
+  - name: 爱达杂货铺
+    url: https://adzhp.net
+    img: https://adzhp.net/wp-content/uploads/2020/02/A-win.ico
+    description: 收集精品网络免费资源、包括免费视频、网盘搜索、软件、网站和各类资源
+  - name: iMyShare
+    url: https://imyshare.com
+    img: https://imyshare.com/media/navigation/imyshare.PNG
+    description: 收集精品网络免费资源，包括资源网站、BT种子磁力搜索、网盘搜索、免费视频、免费音乐、免费电子书、实用软件
   - name: JAY的资源库
     url: https://www.lovejay.top/
     img: https://www.lovejay.top/wp-content/uploads/2022/08/80.png
@@ -235,6 +243,10 @@ navs:
     url: https://www.toolnb.com/
     img: https://www.toolnb.com/favicon.ico
     description: 爱资料工具提供最全面的在线工具网站
+  - name: 资源帝电子书导航
+    url: http://shu.ziyuandi.cn/
+    img: http://shu.ziyuandi.cn/zb_users/upload/2020/04/202004131586788215863243.png
+    description: 开源电子书导航
   - name: 影视森林
     url: https://549.tv
     img: https://java-note-pic.oss-cn-beijing.aliyuncs.com/java/ying.png
@@ -599,6 +611,22 @@ design:
     url: https://www.uisdc.com/
     img: https://www.uisdc.com/favicon.ico
     description: 设计师交流学习平台
+  - name: 致设计
+    url: https://www.zhisheji.com/
+    img: https://www.zhisheji.com/favicon.ico
+    description: 设计师交流学习平台、设计师聚集地
+  - name: 云端设计
+    url: https://www.yrucd.com
+    img: https://www.yrucd.com/favicon.ico
+    description: 云瑞设计,云瑞,UI,PS动作,Sketch,2.5D,PPT模板,C4D,笔刷,图层样式,图标,字体,AE模板
+  - name: 优设网
+    url: https://www.uisdc.com
+    img: https://www.uisdc.com/favicon.ico
+    description: 国内设计师入门到进阶的专业设计网站，提供灵感素材、UI设计、平面设计、网页设计、电商设计、设计软件、SDC网站。
+  - name: UICN用户体验设计平台
+    url: https://www.ui.cn
+    img: https://www.ui.cn/favicon.ico
+    description: ui 学习,ui 源文件,ue 设 计,,界面设计,交互设计,动效设计,APP 界面设计,ui 灵感,设计师简历
   - name: 站酷
     url: https://www.zcool.com.cn/
     img: https://static.zcool.cn/git_z/z/site/favicon.ico?version=1618914637608
@@ -923,14 +951,6 @@ music:
     url: https://music.163.com/
     img: http://p3.music.126.net/tBTNafgjNnTL1KlZMt7lVA==/18885211718935735.jpg
     description: 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活
-  - name: 虾米音乐
-    url: https://www.xiami.com/
-    img: https://api.iowen.cn/favicon/www.xiami.com.png
-    description: 虾米音乐是专业音乐内容发现平台，依托专业曲库内容和精准推荐算法，带你发现音乐惊喜，提升音乐审美
-  - name: 千千音乐
-    url: https://music.taihe.com/
-    img: https://api.iowen.cn/favicon/music.taihe.com.png
-    description: 千千音乐致力于提供更专业、更懂你的「场景音乐」，打造一款个性化、智能化的音乐伴侣产品，让你感受音乐本身的魅力。这里有来自不同国家的数百名音乐设计师，为你提供更好的音乐服务
   - name: 5SING
     url: http://5sing.kugou.com/index.html
     img: https://api.iowen.cn/favicon/5sing.kugou.com.png
@@ -983,10 +1003,34 @@ book:
 
 # 设计资源
 picture:
-  - name: iconfinder
-    url: https://www.iconfinder.com/
-    img: https://www.iconfinder.com/favicon.ico
-    description: 查找logo图片
+  - name: 千图网
+    url: https://www.58pic.com/
+    img: https://www.58pic.com/favicon.ico
+    description: 千图网-免费设计图片素材网站-正版商用图库免费设计素材中国
+  - name: 千库网
+    url: https://588ku.com/
+    img: https://588ku.com/favicon.ico
+    description: 千库网,免抠图,png,png图片,png素材,png图标,banner,背景图片,背景素材
+  - name: 90设计网
+    url: https://90sheji.com/
+    img: https://90sheji.com/favicon.ico
+    description: 90设计网，电商设计模板 PNG素材 背景图免费下载网站
+  - name: 花瓣网
+    url: https://huaban.com
+    img: https://huaban.com/favicon.ico
+    description: 花瓣网 - 陪你做生活的设计师（创意灵感天堂，搜索、发现设计灵感、设计素材）
+  - name: 图品汇
+    url: https://www.88tph.com/
+    img: https://www.88tph.com/favicon.ico
+    description: 图品汇_免费素材模板图片网，设计师都在使用的免费素材图片平台
+  - name: 摄图网
+    url: https://699pic.com/
+    img: https://699pic.com/favicon.ico
+    description: 摄图网,摄影,高清图片,图库,背景图片,设计素材,风景图片,ppt模板,海报,插画,图片大全,免费图片素材下载
+  - name: 潮点视频
+    url: https://shipin520.com/
+    img: https://shipin520.com/favicon.ico
+    description: 潮点视频_版权高清视频素材下载网站-正版可商用
 
 since: 2022
 
