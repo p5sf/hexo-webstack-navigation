@@ -77,7 +77,7 @@ menu:
       - name: 设计交流
         config: design
       - name: 在线配色
-        config: SSHTools
+        config: color
       - name: 高清图片
         config: picture
 
@@ -631,6 +631,36 @@ design:
     url: https://www.zcool.com.cn/
     img: https://static.zcool.cn/git_z/z/site/favicon.ico?version=1618914637608
     description: 设计社区,UI设计,字体插画设计素材,高清壁纸
+color:
+  - name: RGBA颜色值转换
+    url: https://sunpma.com/other/rgb/
+    img: https://sunpma.com/other/rgb/favicon.ico
+    description: 色彩在线颜色值转换工具,RGB转十六进制,RGB,RGBA,HEX,HSL,WEB标准色
+  - name: 颜色渐变
+    url: https://cssgradient.io/
+    img: https://cssgradient.io/images/favicon-23859487.png
+    description: 颜色渐变在线工具和背景
+  - name: Adobe Color
+    url: https://color.adobe.com/zh/create/color-wheel
+    img: https://color.adobe.com/apple-touch-icon.png
+    description: 在线调色，在线混合各种颜色
+  - name: Material design
+    url: https://www.materialpalette.com/colors
+    img: https://www.materialpalette.com/assets/favicon-0f3eb1b9f6d525e848b1dca6db1cabd2a3e9e843749cb9ad72222b80ab9fdf19.ico
+    description: 渐变十六进制颜色卡片
+  - name: Color Palettes
+    url: https://colorhunt.co/
+    img: https://colorhunt.co/img/colorhunt-favicon.svg?2
+    description: 渐变十六进制颜色卡片
+  - name: Happy Hues
+    url: https://www.happyhues.co/
+    img: https://assets.website-files.com/5dd40aa8049df8748c72d0ee/5dd9b94105da589ba59c4907_happy-hues-fav.png
+    description: 在线设计配色方案
+  - name: webgradients
+    url: https://webgradients.com/
+    img: https://webgradients.com/favicons/apple-touch-icon-57x57.png
+    description: 渐变颜色背景
+
 
 # 在线文档
 onlineDocument:
