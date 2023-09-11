@@ -102,6 +102,6 @@ theme: webstack
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
-  repo: git@github.com:sundayskys/hexo-navigation.git
-  branch: gh-pages
+  type: ''
+  repo:
+  branch:
